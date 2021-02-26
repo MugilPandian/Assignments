@@ -1,0 +1,93 @@
+body{
+    background: url(https://images.unsplash.com/photo-1606056041654-f203e0351229?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=60) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border:0px solid black;
+        box-shadow: 5px 5px 5px white inline ;
+        border-radius: 5px;
+        padding: 10px;    
+        display:flex;
+        color:white;
+        align-items: center;
+        justify-content: center;
+        background-image: url(https://images.unsplash.com/photo-1606162555134-6b625614d5c0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+}
+h2{
+    text-transform: uppercase;
+    padding:5px;
+    margin-left: 0px;
+    margin-right:10px;
+    text-align: center;
+    font-family: "Roboto";
+    border-right: 1px solid black;
+    letter-spacing: 2px;
+}
+.form{
+    font-family: "Noto Sans JP";
+    padding-right:30px;
+    
+    
+}
+::placeholder{
+    font-family: "Noto Sans JP";
+    font-size: 16px;
+    color:whitesmoke;
+}
+#mail,#pwd,#rpwd{
+    border-color:transparent;
+    border-top-color:transparent;
+    border-left-color: transparent ;
+    border-right-color: transparent ;
+    border-bottom:1px solid white;
+    background-color: transparent;
+    width:100%;
+    outline: none;
+    caret-color: whitesmoke;
+}
+.rem{
+    padding-top:10px;
+}
+.btn{
+    display:flex;
+    height:50px;  
+}
+#cl{
+    font-family: "Noto Sans JP";
+    font-weight: 900;
+    text-transform: uppercase;
+    width:50%;
+    margin:2px;
+    border:0px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px grey;
+    color:white;
+    background-color: #f9484a;
+background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+}
+#sub{
+    font-family: "Noto Sans JP";
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 50%;
+    margin:2px;
+    border:0px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px grey;
+    color:white;
+    background-color: #00b712;
+background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color:red;
+}

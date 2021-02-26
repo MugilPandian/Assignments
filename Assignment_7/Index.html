@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup form</h2>
+        <div class="form">
+            <form name="val" id="my" action="" method="POST">
+            <p>Email</p>
+            <input type="email" name="mail" id="mail" placeholder="Enter Email" onfocus="this.placeholder = ''">
+            <p>Password</p>
+            <input type="password" name="mail" id="pwd" placeholder="Enter Password" onfocus="this.placeholder = ''">
+            <p>Confirm Password</p>
+            <input type="password" name="mail" id="rpwd" placeholder="Repeat Password" onfocus="this.placeholder = ''">
+            <div class="rem"><input type="checkbox" name="radio" id="rad" value="agree"> Remember Me</div>
+            <p>To create an account you have to agree to our <a href="">Terms & Privacy.</a></p>
+            <div class="btn">
+                <input type="button" value="clear" id="cl"><input type="submit" id="sub" value="submit" onclick="isValid()">
+            </div>
+            </form>
+        </div>
+    </div>
+<script>
+function isValid()
+{
+var a=document.getElementById("my").elements.item(1).value;
+var b=document.getElementById("my").elements.item(2).value;
+if(a!=b){
+    alert("Passwords Do Not Match");
+}
+else{
+    alert("Submitted.");
+}
+};
+</script>
+</body>
+</html>

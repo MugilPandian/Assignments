@@ -1,0 +1,52 @@
+body{
+    padding:0px;
+    background-color: black;
+}
+.container{
+   margin:0px;
+    background-image: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNzc3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  align-content: center;
+  justify-content:center;
+}
+
+.sub {
+    width:500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color:rgba(104, 56, 167, 0.3);
+    border-radius:10px;
+    padding:50px;
+    color:white;
+    text-align: left;
+    font-family:"Roboto";
+    line-height: 40px;
+    box-shadow: 0px 0px 5px whitesmoke inset;
+}
+strong{
+    letter-spacing: 5px;
+    font-size: 3em;
+}
+.f{
+    width:75%;
+    border-bottom:2px solid rgb(207, 151, 151);
+    background-color: transparent;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    border-right-color:transparent;
+}
+.bt{
+    padding:5px 10px;
+    background-color: rgb(207, 151, 151);
+    border-color:transparent;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+}
